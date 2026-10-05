@@ -1,36 +1,36 @@
 # 🗡️ Shadow-Ascent-3D
 A 3D Dungeon Hunter Browser Game built with Three.js. Fight Waves, Level Up, Spend Stat Points and Raise Shadow Allies. Single HTML File, Auto-Deployed with GitHub Actions + Pages.
 
-🎮 **Play it Live:** [Shadow Ascent 3D](https://ayushhl.github.io/Shadow-Ascent-3d/)
+🎮 **Play it Live:** [Shadow Ascent 3D](https://ayushhl.github.io/Shadow-Ascent-3D/)
 
 ---
 
 ## ✨ Features
 
-- Fully 3D dungeon arena with dynamic lighting, shadows and fog
-- Wave-based combat with a **Boss every 5th wave**
-- RPG progression: XP, levels, ranks (E to S) and stat points
-- Four stats that change how you play: **STR, AGI, VIT, INT**
-- **Shadow Allies**: raise fallen enemies to fight for you
-- Skills: slash, dash (dodge), area burst and shadow rise
-- Floating damage numbers, critical hits, screen shake and particle effects
+- Fully 3D Dungeon Arena with Dynamic Lighting, Shadows and Fog
+- Wave-based Combat with a **Boss every 5th Wave**
+- RPG Progression: XP, Levels, Ranks (E to S) and Stat Points
+- Four Stats that change How you Play: **STR, AGI, VIT, INT**
+- **Shadow Allies**: Raise Fallen Enemies to Fight for You
+- Skills: Slash, Dash (Dodge), Area Burst and Shadow Rise
+- Floating Damage Numbers, Critical Hits, Screen Shake and Particle Effects
 
 ---
 
 ## 🎮 Controls
 
-Desktop with keyboard and mouse.
+Desktop with Keyboard and Mouse.
 
 | Key | Action |
 |---|---|
 | `W` `A` `S` `D` | Move |
-| Mouse | Turn the camera (click once to lock the mouse) |
+| Mouse | Turn the Camera (Click once to Lock the Mouse) |
 | Left click / `Space` | Slash |
-| `Shift` | Dash and dodge (brief invulnerability) |
-| `Q` | Shadow Burst: area attack (30 mana) |
-| `E` | Rise: turn a fallen enemy into a shadow ally (25 mana) |
-| `1` `2` `3` `4` | Spend stat points on STR / AGI / VIT / INT |
-| `←` `→` | Turn the camera (if mouse lock doesn't work) |
+| `Shift` | Dash and Dodge (Brief Invulnerability) |
+| `Q` | Shadow Burst: Area Attack (30 mana) |
+| `E` | Rise: Turn a Fallen Enemy into a Shadow Ally (25 mana) |
+| `1` `2` `3` `4` | Spend Stat Points on STR / AGI / VIT / INT |
+| `←` `→` | Turn the Camera (If Mouse Lock Doesn't Work) |
 | `Esc` | Pause |
 
 ---
@@ -39,55 +39,53 @@ Desktop with keyboard and mouse.
 
 | Stat | Effect |
 |---|---|
-| **STR** | More attack damage |
-| **AGI** | Faster movement and attacks, higher crit chance, shorter dash cooldown |
-| **VIT** | More max health |
-| **INT** | More max mana, faster mana regen, stronger shadows, more shadow slots |
+| **STR** | More Attack Damage |
+| **AGI** | Faster Movement and Attacks, Higher Crit Chance, Shorter Dash Cooldown |
+| **VIT** | More Max Health |
+| **INT** | More Max Mana, Faster Mana Regen, Stronger Shadows, More Shadow Slots |
 
-Each level-up gives **3 stat points**, fully restores health and mana, and makes you a bit stronger than the last wave.
+Each Level Up gives **3 Stat Points**, Fully Restores Health and Mana, and Makes you a bit Stronger than the Last Wave.
 
 ---
 
-## 🌑 How shadows work
+## 🌑 How Shadows Work
 
-1. Defeat an enemy and it leaves a glowing purple mark on the floor.
-2. Stand close to it and press `E`.
-3. A shadow ally rises and fights for you. Stronger enemies, and bosses, make stronger shadows.
-4. Your shadow limit starts at 2 and grows as you invest in INT.
+1. Defeat an Enemy and it Leaves a Glowing Purple Mark on the Floor.
+2. Stand Close to it and Press `E`.
+3. A Shadow Ally Rises and Fights for You. Stronger Enemies, and Bosses, Make Stronger Shadows.
+4. Your Shadow Limit Starts at 2 and Grows as You Invest in INT.
 
 ---
 
 ## 🚀 Run locally
 
-Just open the file in a browser:
+Just Open the File in a Browser:
 
 ```bash
-git clone https://github.com/AyushHL/shadow-ascent.git
-cd shadow-ascent
-# open index.html (or shadow-ascent.html) in your browser
+git clone https://github.com/AyushHL/Shadow-Ascent-3D.git
+cd Shadow-Ascent-3D
+# Open index.html in Your Browser
 ```
 
-An internet connection is needed because Three.js and the fonts load from a CDN.
+An Internet Connection is Needed because Three.js and the Fonts Load from a CDN.
 
 ---
 
 ## ⚙️ CI/CD
 
-Every push to `main` runs a GitHub Actions pipeline (`.github/workflows/deploy.yml`):
+Every Push to `main` Runs a GitHub Actions Pipeline (`.github/workflows/ci-cd.yml`):
 
 1. **CI**: Runs HTML, JS and CSS linting
 2. **Build**: Packages the site into a `dist` folder
 3. **Deploy**: Publishes it to GitHub Pages
 
-Pull requests run CI and build only, with no deploy.
-
-To enable deployment on your own fork, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+To Enable Deployment on Your Own Fork, Go to **Settings → Pages** and Set **Source** to **GitHub Actions**.
 
 ---
 
 ## 🛠️ Tech stack
 
-- [Three.js](https://threejs.org/) (r128) for 3D rendering
+- [Three.js](https://threejs.org/) (r128) for 3D Rendering
 - Vanilla JavaScript, HTML and CSS
 - GitHub Actions and GitHub Pages
 
@@ -95,21 +93,21 @@ To enable deployment on your own fork, go to **Settings → Pages** and set **So
 
 ## 📌 Notes
 
-- Designed for desktop browsers (keyboard and mouse). Touch controls are not supported yet.
-- Shadow Ascent is an original fan-inspired project. The characters, monsters and designs are original.
+- Designed for Desktop Browsers (Keyboard and Mouse). Touch Controls are not Supported Yet.
+- Shadow Ascent is an Original Fan-inspired Project. The Characters, Monsters and Designs are Original.
 
 ---
 
 ## 🗺️ Roadmap
 
-- [ ] Sound effects and music
-- [ ] More enemy types
-- [ ] Skill tree
-- [ ] Touch controls for mobile
-- [ ] Local high score
+- [ ] Sound Effects and Music
+- [ ] More Enemy Types
+- [ ] Skill Tree
+- [ ] Touch Controls for Mobile
+- [ ] Local High Score
 
 ---
 
 ## 📄 License
 
-MIT. Free to use, modify and share.
+MIT. Free to Use, Modify and Share.
